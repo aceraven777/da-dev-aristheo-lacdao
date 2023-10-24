@@ -1,59 +1,66 @@
-# Digital Awesome Development Test Project
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-This isn't really a test, rather a way to get an idea of how you problem solve and develop.
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
 
-The project should take you no more than 4 hours to complete.
+## About Laravel
 
-## Create a branch for your code
-When you are ready to start fork this repository to your own github account `da-dev-{your_name)`
-It's a good idea to make a couple of commits during development so we can see how you are progressing.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-## How to submit your code for review
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Please commit all of your working code to your repository.
-Once you have finished creating the app and have committed your code let a team member know that your app is ready for review.
-*MAKE SURE TO SHARE A LINK TO YOUR REPOSITORY!*
+## Learning Laravel
 
-### Make sure your app is ready for review!
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-We should be able to pull down your completed repository, install the packages and run it locally to review.
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-***
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-# To-do List (Test Project)
+## Laravel Sponsors
 
-We need to create a single list to-do app.
-There is no authentication required for this app.
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-The app should display a single to-do list. Anyone can add, remove, or mark complete items in the list.
+### Premium Partners
 
-The only field a to-do list item has is a text description. That is required to add an item to the to-do list.
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
 
-- When someone adds an item to the list it should save it to the database.
-- When someone marks an item on the list complete it should update it in the database and show the item as marked complete.
-- When someone removes the item from the list it should soft-delete the item and remove it from the list.
+## Contributing
 
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Code of Conduct
 
-## Scope
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-- [ ] I should be able to view all of the items in the to-do list.
-- [ ] I should be able to add an item to the list
-- [ ] I should be able to remove an item from the list
-- [ ] I should be able to mark an item from the list as complete
+## Security Vulnerabilities
 
-There are no design requirements for this task. You can install Tailwind or Bootstrap for basic styling if you prefer or include no styling at all. 
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## License
 
-### Technical Requirements
-- Database: Mysql or PostgreSQL
-- API backend: Laravel
-- Frontend: React.js (with typescript and React hooks)
-
-****
-#### Nice to have but not required:
-- Use Repository Pattern
-- Use Laravel's APiResource for API responses
-****
-Good luck and don't hesitate to reach out if you have any questions or need clarification on the scope or requirements.
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
