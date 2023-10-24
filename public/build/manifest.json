@@ -1,6 +1,6 @@
 {
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-124e98bf.js",
+    "file": "assets/Home-5dbf0a3e.js",
     "imports": [
       "resources/js/app.jsx"
     ],
@@ -8,17 +8,17 @@
     "src": "resources/js/Pages/Home.jsx"
   },
   "resources/js/app.css": {
-    "file": "assets/app-45283f1a.css",
+    "file": "assets/app-e2768123.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.jsx": {
     "css": [
-      "assets/app-45283f1a.css"
+      "assets/app-e2768123.css"
     ],
     "dynamicImports": [
       "resources/js/Pages/Home.jsx"
     ],
-    "file": "assets/app-d69f3807.js",
+    "file": "assets/app-c2340fc2.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   }
