@@ -18,7 +18,8 @@ class TodoItemFactory extends Factory
     public function definition(): array
     {
         return [
-            'description' => Str::random(17)
+            'description' => Str::random(17),
+            'completed' => false,
         ];
     }
 }

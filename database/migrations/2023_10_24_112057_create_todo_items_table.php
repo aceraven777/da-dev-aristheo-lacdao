@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('todo_items', function (Blueprint $table) {
             $table->id();
             $table->string('description');
+            $table->boolean('completed')->default(false);
             $table->timestamps();
             $table->softDeletes();
         });
